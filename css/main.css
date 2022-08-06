@@ -1,3 +1,6 @@
+.menu {
+  max-width: 1920px; }
+
 .menu-btn {
   position: absolute;
   z-index: 9999;
@@ -122,11 +125,11 @@
     justify-content: center;
     align-items: center; }
     .progress-bar-container .progress-bar-inner-container .animated-progress {
-      width: 300px;
-      height: 30px;
-      border-radius: 5px;
-      margin: 20px 10px;
-      border: 1px solid #fff;
+      width: 18.75rem;
+      height: 1.875rem;
+      border-radius: 0.313rem;
+      margin: 1.25rem 0.625rem;
+      border: 0.063rem solid #fff;
       overflow: hidden;
       position: relative; }
     .progress-bar-container .progress-bar-inner-container .animated-progress span {
@@ -134,10 +137,10 @@
       display: block;
       width: 0;
       color: #fffbfb;
-      line-height: 30px;
+      line-height: 1.875rem;
       position: absolute;
       text-align: end;
-      padding-right: 5px; }
+      padding-right: 0.313rem; }
     .progress-bar-container .progress-bar-inner-container .animated-progress span {
       background-color: #D6D5A8; }
 
@@ -168,6 +171,13 @@ body {
       height: 100%;
       z-index: -1;
       background: rgba(27, 36, 48, 0.8); }
+
+header {
+  max-width: 1920px; }
+
+.main-wrapper {
+  max-width: 1920px;
+  margin: auto; }
 
 h1,
 h2,
@@ -310,16 +320,16 @@ main {
             overflow: hidden;
             height: 100%;
             white-space: normal;
-            padding: 0 10px; }
+            padding: 0 0.625rem; }
             .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-content .item .imgTitle {
               position: relative; }
               .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-content .item .imgTitle .slider-img-container img {
-                max-height: 516px;
+                max-height: 32.25rem;
                 width: 100%; }
               .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-content .item .imgTitle .blogTitle {
                 margin: 0;
                 text-align: left;
-                letter-spacing: 2px;
+                letter-spacing: 0.125rem;
                 color: #fff;
                 font-style: italic;
                 position: absolute;
@@ -327,7 +337,7 @@ main {
                 width: 100%;
                 bottom: 0;
                 font-weight: bold;
-                padding: 0 0 2px 10px; }
+                padding: 0 0 0.125rem 0.625rem; }
             .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-content .item p {
               font-size: 1.3rem;
               margin: 1rem 0rem;
@@ -341,16 +351,16 @@ main {
             border: none;
             background-color: transparent;
             outline: 0;
-            font-size: 50px;
+            font-size: 3.125rem;
             color: #fff;
             transition: 0.15s linear;
             cursor: pointer; }
             .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls button:hover, .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls button:focus {
               color: #fff; }
           .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls .MS-left {
-            left: 0px; }
+            left: 0rem; }
           .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls .MS-right {
-            right: 0px; }
+            right: 0rem; }
 
 /*-------Projects Page------*/
 #projects .lg-heading {
@@ -432,7 +442,7 @@ main {
 
 @media screen and (max-width: 992px) {
   #mixedSlider .MS-controls button {
-    font-size: 30px; }
+    font-size: 1.875rem; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'bio1' 'bio2' 'bio3';
     grid-template-columns: 1fr; } }
@@ -486,13 +496,13 @@ main {
     .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-content .item p {
       font-size: 1rem; }
   .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls {
-    margin-top: -30px; }
+    margin-top: -1.875rem; }
     .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls button {
-      font-size: 40px; }
+      font-size: 2.5rem; }
     .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls .MS-left {
-      left: -10px; }
+      left: -0.625rem; }
     .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls .MS-right {
-      right: -10px; } }
+      right: -0.625rem; } }
 
 @media screen and (max-width: 500px) {
   main#about {
@@ -504,9 +514,9 @@ main {
     margin-top: 12vh;
     font-size: 4rem !important; }
   .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls {
-    margin-top: -10px; }
+    margin-top: -0.625rem; }
     .work-skills-container .work-skills-content .slider-container #mixedSlider .MS-controls button {
-      font-size: 30px; } }
+      font-size: 1.875rem; } }
 
 @media screen and (max-width: 550px) {
   .contact div {
@@ -520,7 +530,7 @@ main {
   .work-skills-container .skills-title {
     font-size: 3rem !important; }
   .progress-bar-container .progress-bar-inner-container .animated-progress {
-    width: 250px; }
+    width: 15.625rem; }
   .work-skills-container .work-skills-content .slider-container .slider-container-title {
     margin-bottom: 0rem; } }
 
